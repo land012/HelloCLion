@@ -5,8 +5,8 @@
 
 using namespace std;
 
-void func1(int *arr);
-void func2(int *arr);
+void func1(double *arr);
+void func2(double *arr);
 
 int main()
 {
