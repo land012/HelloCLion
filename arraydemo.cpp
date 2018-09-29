@@ -13,4 +13,11 @@ int main()
     cout << arr2[0] << endl;
     cout << *arr2 << endl;
     cout << *(arr2 + 1) << endl;
+
+    cout << "point mem addr" << endl;
+    double *ptr;
+    ptr = arr2;
+    cout << (int *)ptr << endl;
+    ptr++;
+    cout << (int *)ptr << endl;
 }
