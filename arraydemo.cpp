@@ -10,6 +10,8 @@ int main()
     double arr1[3];
     double arr2[3] = {1.1, 2.2, 3.3};
 
+    cout << "sizeof(arr2):" << sizeof(arr2) << endl;
+
     cout << arr2[0] << endl;
     cout << *arr2 << endl;
     cout << *(arr2 + 1) << endl;
@@ -17,6 +19,7 @@ int main()
     cout << "point mem addr" << endl;
     double *ptr;
     ptr = arr2;
+    cout << ptr[0] << endl;
     cout << (int *)ptr << endl;
     ptr++;
     cout << (int *)ptr << endl;
