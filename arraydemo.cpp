@@ -13,9 +13,9 @@ int main()
     double arr1[3];
     double arr2[3] = {1.1, 2.2, 3.3};
 
-    cout << "sizeof(arr2):" << sizeof(arr2) << endl;
-    func1(arr2);
-    func2(arr2);
+    cout << "sizeof(arr2):" << sizeof(arr2) << endl; // 24 数组占用字节数
+    func1(arr2); // 8
+    func2(arr2); // 8
 
     cout << arr2[0] << endl;
     cout << *arr2 << endl;
@@ -32,10 +32,10 @@ int main()
 
 void func1(double *arr)
 {
-    cout << "func1:" << sizeof(arr) << endl;
+    cout << "func1:" << sizeof(arr) << endl; // 内存地址 int
 }
 
 void func2(double arr[])
 {
-    cout << "func2:" << sizeof(arr) << endl;
+    cout << "func2:" << sizeof(arr) << endl; // 内存地址 int
 }
