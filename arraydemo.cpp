@@ -17,17 +17,17 @@ int main()
     func1(arr2); // 8
     func2(arr2); // 8
 
-    cout << arr2[0] << endl;
-    cout << *arr2 << endl;
-    cout << *(arr2 + 1) << endl;
+    cout << arr2[0] << endl; // 1.1
+    cout << *arr2 << endl; // 1.1
+    cout << *(arr2 + 1) << endl; // 1.1
 
     cout << "============== point mem addr ==============" << endl;
     double *ptr;
     ptr = arr2;
-    cout << ptr[0] << endl;
-    cout << (int *)ptr << endl;
+    cout << ptr[0] << endl; // 1.1
+    cout << (int *)ptr << endl; // 0x7ffde7f31e90
     ptr++;
-    cout << (int *)ptr << endl;
+    cout << (int *)ptr << endl; // 0x7ffde7f31e98
 }
 
 void func1(double *arr)
