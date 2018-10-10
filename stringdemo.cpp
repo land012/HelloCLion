@@ -10,5 +10,7 @@ int main()
 {
     char str1[] = "hello";
     cout << str1 << endl;
+    cout << strlen(str1) << endl;
+    cout << sizeof(str1) << endl;
     return 0;
 }
