@@ -3,5 +3,5 @@ project(HelloCLion)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp randdemo.cpp arraydemo.cpp stringdemo.cpp)
+set(SOURCE_FILES main.cpp randdemo.cpp arraydemo.cpp stringdemo.cpp pointdemo.cpp pointdemo.h)
 add_executable(HelloCLion ${SOURCE_FILES})

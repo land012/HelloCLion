@@ -16,9 +16,9 @@ int main()
     cout << sizeof(str1) << endl; // 6
 
     string str2 = "world";
-    cout << str2.length() << endl;
-    cout << str2.size() << endl;
-    cout << sizeof(str2) << endl;
+    cout << str2.length() << endl; // 5
+    cout << str2.size() << endl; // 5
+    cout << sizeof(str2) << endl; // 8
 
     return 0;
 }
