@@ -22,4 +22,9 @@ int main()
     cout << p2 << endl;
     p2++;
     cout << p2 << endl;
+
+    char c2 = 'a';
+    char* p3;
+    p3 = &c2;
+    cout << p3 << endl;
 }
