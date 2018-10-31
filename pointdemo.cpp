@@ -16,8 +16,8 @@ int main()
     p++;
     cout << p << endl;
 
-    char c1 = 'c';
-    char *p2;
+    long c1 = 1L;
+    long *p2;
     p2 = &c1;
     cout << p2 << endl;
     p2++;
