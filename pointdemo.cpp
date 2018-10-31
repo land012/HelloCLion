@@ -26,5 +26,6 @@ int main()
     char c2 = 'a';
     char* p3;
     p3 = &c2;
+    cout << &c2 << endl;
     cout << p3 << endl;
 }
