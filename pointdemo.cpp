@@ -15,4 +15,11 @@ int main()
     cout << p << endl;
     p++;
     cout << p << endl;
+
+    char c1;
+    char *p2;
+    p2 = &c1;
+    cout << p2 << endl;
+    p2++;
+    cout << p2 << endl;
 }
