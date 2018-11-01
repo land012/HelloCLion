@@ -26,15 +26,17 @@ int main()
     char c2 = 'a';
     char* p3;
     p3 = &c2;
-    cout << &c2 << endl; // a
-    cout << p3 << endl;
-    cout << *p3 << endl;
+    cout << &c2 << endl; // a<特殊符号>
+    cout << p3 << endl; // a<特殊符号>
+    cout << *p3 << endl; // a
     cout << (int *)p3 << endl; // 0x7ffe02817c0f
 
+    cout << "========================= char arr =========================" << endl;
     char arr1[] = "hello";
     char* p4;
     p4 = arr1;
     cout << p4 << endl; // hello
+    cout << *p4 << endl;
     cout << (int *)p4 << endl; // 0x7ffd221628b0
     p4++;
     cout << p4 << endl; // ello
