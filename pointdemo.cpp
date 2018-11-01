@@ -28,14 +28,15 @@ int main()
     p3 = &c2;
     cout << &c2 << endl; // a
     cout << p3 << endl;
+    cout << *p3 << endl;
     cout << (int *)p3 << endl; // 0x7ffe02817c0f
 
     char arr1[] = "hello";
     char* p4;
     p4 = arr1;
     cout << p4 << endl; // hello
-    cout << (int *)p4 << endl;
+    cout << (int *)p4 << endl; // 0x7ffd221628b0
     p4++;
     cout << p4 << endl; // ello
-    cout << (int *)p4 << endl;
+    cout << (int *)p4 << endl; // 0x7ffd221628b1
 }
