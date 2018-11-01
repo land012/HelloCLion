@@ -28,4 +28,11 @@ int main()
     p3 = &c2;
     cout << &c2 << endl;
     cout << p3 << endl;
+
+    char arr1[] = "hello";
+    char* p4;
+    p4 = arr1;
+    cout << p4 << endl;
+    p4++;
+    cout << p4 << endl;
 }
