@@ -36,7 +36,7 @@ int main()
     char* p4;
     p4 = arr1;
     cout << p4 << endl; // hello
-    cout << *p4 << endl;
+    cout << *p4 << endl; // h
     cout << (int *)p4 << endl; // 0x7ffd221628b0
     p4++;
     cout << p4 << endl; // ello

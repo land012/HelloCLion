@@ -19,7 +19,7 @@ int main()
 
     cout << arr2[0] << endl; // 1.1
     cout << *arr2 << endl; // 1.1
-    cout << *(arr2 + 1) << endl; // 1.1
+    cout << *(arr2 + 1) << endl; // 2.2
 
     cout << "============== point mem addr ==============" << endl;
     double *ptr;
