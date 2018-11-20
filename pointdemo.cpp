@@ -6,6 +6,8 @@
 
 using namespace std;
 
+void get(int *p);
+
 int main()
 {
     int var1;
@@ -41,4 +43,14 @@ int main()
     p4++;
     cout << p4 << endl; // ello
     cout << (int *)p4 << endl; // 0x7ffd221628b1
+
+    cout << "function point params" << endl;
+    int p5 = 3;
+    get(&p5);
+    cout << p5 << endl;
+}
+
+void get(int *p)
+{
+    *p = 5;
 }
